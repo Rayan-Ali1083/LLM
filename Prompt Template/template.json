@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "cats_input",
+        "info_length"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        Provide {info_length} unique and interesting facts about the cat species '{cats_input}'. \n        Ensure the facts are well-researched, diverse.\n        Keep the facts concise but informative under 25 words.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
